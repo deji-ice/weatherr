@@ -21,9 +21,26 @@ function App() {
   return (
     <>
       <div>
-        <h1>{currentWeather?.feelslike_c}</h1>
+        {/* <h1>{currentWeather?.feelslike_c}</h1>
         <div><p>{currentWeather?.condition.text}</p> <img  src={currentWeather?.condition.icon} /></div>
-        <p> {location?.name} ,{location?.country}</p>
+        <p> {location?.name} ,{location?.country}</p> */}
+
+        <div>
+          <div>search</div>
+          <div>
+            <img src={currentWeather?.condition.icon} />
+          </div>
+        </div>
+        <div>
+          <div>
+            time
+          </div>
+          <div>
+            textss
+          </div>
+
+          <div>paragraphs</div>
+        </div>
       </div>
     </>
   )
